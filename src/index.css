@@ -1,0 +1,260 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Monaco', 'Courier New';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+
+  background-color:black !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 25px;
+
+}
+
+li{
+  display: inline-block;
+  padding: 13px;
+}
+
+
+
+
+
+.navbar{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+  transform: translate(-5%);
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+
+  overflow: hidden;
+
+}
+
+.home-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 450px;
+  margin-bottom: 200px;
+
+}
+
+.home-text-name{
+  display: flex;
+  width: 650px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  font-size: 72px;
+  color: #f8f8ff;
+}
+
+.title{
+  font-size: 24px;
+  color: #f8f8ff;
+}
+
+.projects-text{
+  color: #f8f8ff;
+}
+
+.home-text-title{
+  width: 750px;
+  text-align: center;
+}
+
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  transform: translate(0,-5%);
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    height: 225px;
+    margin: 1vw;
+    padding: 10px;
+    border-spacing: 8px 2px;
+    position: fixed;
+}
+
+.cards-text{
+  color: black;
+  font-size: 24px;
+  transform: translate(0%, 75%);
+  text-align: center;
+  border: 3px solid rgb(163, 163, 163);
+}
+
+.description{
+  color: black;
+  height: 200px;
+}
+
+.description-text{
+  font-size: 2.5vw;;
+}
+
+.about-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 105%;
+  width: 100%;
+  border-radius: 50px;
+  transform: translate(0%, -2%);
+}
+
+.tab{
+  margin-left: 15%;
+}
+.tab-2{
+  margin-left: 30%;
+}
+
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 225px;
+    margin: 1vw;
+    padding: 10px;
+    transform: translate(50%, 10%);
+    border-spacing: 8px 2px;
+}
+.education{
+    display: inline;
+    color: white;
+    white-space: nowrap;
+    justify-content: space-around;
+    margin: 1vw;
+    line-height: .5vw;
+    padding-right: 125px;
+    padding-left: 50px;
+    border-spacing: 8px 2px;
+    transform: translate(15%);
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+.skill-container{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 225px;
+    margin:80px;
+    padding: 1vw;
+    transform: translate(130%, 10%);
+    border-spacing: 8px 2px;
+}
+
+.skills{
+  display: inline;
+  color: white;
+  white-space: nowrap;
+  justify-content: space-around;
+  margin: 1vw;
+  line-height: .5vw;
+  padding-right: 125px;
+  padding-left: 50px;
+  border-spacing: 8px 2px;
+  transform: translate(15.75%);
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.certificate-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 225px;
+    margin: 1vw;
+    padding: 10px;
+    transform: translate(50%, 10%);
+    border-spacing: 8px 2px;
+}
+
+.certificate{
+  display: inline;
+  color: white;
+  white-space: nowrap;
+  justify-content: space-around;
+  margin: 1vw;
+  line-height: .5vw;
+  padding-right: 125px;
+  padding-left: 50px;
+  border-spacing: 8px 2px;
+  transform: translate(15%);
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.experience-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 225px;
+    margin:80px;
+    padding: 1vw;
+    transform: translate(25%, 10%);
+    border-spacing: 8px 2px;
+}
+
+.experience{
+  display: inline;
+  color: white;
+  white-space: nowrap;
+  justify-content: space-around;
+  margin: 1vw;
+  line-height: .5vw;
+  padding-right: 125px;
+  padding-left: 50px;
+  border-spacing: 8px 2px;
+  transform: translate(1.15%);
+  border-left: 3px solid rgb(255, 255, 255);
+}
